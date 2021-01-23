@@ -7,4 +7,4 @@ Put `AA.java` file into your source directory, it contains the static main metho
 Any fix, bug report etc. are welcome. Hope all get 100 points :)
 
 My directory structure:
-![Directory Structure](https://github.com/afeser/ceng-443-hw3-output-generator/blob/master/tester/struct_dir.png?raw=true)
+![Directory Structure](https://github.com/afeser/ceng-443-hw3-output-generator/blob/main/tester/struct_dir.png?raw=true)

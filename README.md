@@ -1,20 +1,10 @@
 # Description
 
-This Python script is basically written for CENG 443 Fall 2021 Course Homework 3 and it generates random input files to be consumed by students.
+For input generation please refer to the original repository. I am just writing a tester script to test for many input/output pairs automatically.
 
-# Usage
+Put `AA.java` file into your source directory, it contains the static main method. `student_course.txt` and `input.7z` should be directly readable. The results will be stored in `test_result.txt` whereas my results are in `test_result_compare.txt`. You can simply compare it with diff command or another utility.
 
-It basically takes three optional arguments and/or parameters, namely `--location` or `-l` for where to create files, `--student-count` or `-sc` for number of students to be generated and `--fail-possible` or `--fail-not-possible` to decide whether allow students to fail in any course.
+Any fix, bug report etc. are welcome. Hope all get 100 points :)
 
-User can also obtain info with `--help` or `-h` parameter.
-
-# File Contents
-
-`course_codes_and_terms.json`: It basically has course info that this input generator depends on and it will use all courses in that file and generate exams of students accordingly. The fields are self-explanatory.
-
-
-`names_of_exams.json`: Name of the possible exams that is allowed to be generated.
-
-`student_name_surnames.json`: A database to generate Turkish names and surnames.
-
-`years.json`: Possible registration years for the students.
+My directory structure:
+![Directory Structure](https://github.com/afeser/ceng-443-hw3-output-generator/blob/master/tester/struct_dir.png?raw=true)
